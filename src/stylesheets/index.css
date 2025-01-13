@@ -38,3 +38,11 @@
   animation-name: fade-in;
   opacity: 1;
 }
+
+
+.animate {
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  transition-duration: .3s;
+  transition-property: all;
+
+}

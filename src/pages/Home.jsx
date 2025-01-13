@@ -3,6 +3,8 @@ import FirstSection from '../components/FirstSection'
 import LastSection from '../components/LastSection'
 import SecondSection from '../components/SecondSection'
 import ThirdSection from '../components/ThirdSection'
+import BestCallSection from '../components/BestCallSection'
+import ArcSection from '../components/ArcSection'
 
 const Home = () => {
   return (
@@ -10,6 +12,8 @@ const Home = () => {
       <FirstSection />
       <SecondSection/>
       <ThirdSection/>
+      <BestCallSection />
+      <ArcSection />
       <LastSection />
     </div>
   )
